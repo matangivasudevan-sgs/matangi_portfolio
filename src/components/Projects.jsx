@@ -25,7 +25,7 @@ export default function Projects() {
                   {project.category}
                 </span>
 
-                <h3 className="mt-4 text-base font-semibold leading-6 text-navy">{project.title}</h3>
+                <h3 className="mt-4 text-base font-semibold leading-6 text-heading">{project.title}</h3>
 
                 <p className="mt-3 text-sm leading-6 text-muted">{project.description}</p>
 
@@ -41,9 +41,9 @@ export default function Projects() {
 
                 {project.publication && (
                   <div className="mt-5 flex items-start gap-2.5 rounded-lg border border-line bg-surface p-3.5">
-                    <BookMarked size={15} aria-hidden="true" className="mt-0.5 shrink-0 text-accent" />
+                    <BookMarked size={15} aria-hidden="true" className="mt-0.5 shrink-0 text-accent-text" />
                     <div className="text-sm">
-                      <p className="font-semibold text-navy">Published — {project.publication}</p>
+                      <p className="font-semibold text-heading">Published — {project.publication}</p>
                       <p className="mt-0.5 inline-flex items-center gap-1.5 text-xs text-muted">
                         <CalendarCheck size={12} aria-hidden="true" />
                         {project.publicationDate}

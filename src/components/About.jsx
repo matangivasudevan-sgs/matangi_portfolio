@@ -28,11 +28,11 @@ export default function About() {
                   <div className="card card-hover h-full p-5">
                     <span
                       aria-hidden="true"
-                      className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent-soft text-accent"
+                      className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent-soft text-accent-text"
                     >
                       <Icon size={18} />
                     </span>
-                    <h3 className="mt-4 text-sm font-semibold text-navy">{card.title}</h3>
+                    <h3 className="mt-4 text-sm font-semibold text-heading">{card.title}</h3>
                     <p className="mt-2 text-sm leading-6 text-muted">{card.description}</p>
                   </div>
                 </Reveal>

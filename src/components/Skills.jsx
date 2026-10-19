@@ -24,11 +24,11 @@ export default function Skills() {
                   <div className="flex items-center gap-3">
                     <span
                       aria-hidden="true"
-                      className="flex h-10 w-10 items-center justify-center rounded-lg bg-navy text-white"
+                      className="flex h-10 w-10 items-center justify-center rounded-lg bg-solid text-white"
                     >
                       <Icon size={17} />
                     </span>
-                    <h3 className="text-base font-semibold text-navy">{group.category}</h3>
+                    <h3 className="text-base font-semibold text-heading">{group.category}</h3>
                   </div>
                   <ul className="mt-5 flex flex-wrap gap-2">
                     {group.skills.map((skill) => (

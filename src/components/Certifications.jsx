@@ -23,12 +23,12 @@ export default function Certifications() {
               <li className="card card-hover flex h-full items-start gap-4 p-5">
                 <span
                   aria-hidden="true"
-                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent-soft text-accent"
+                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent-soft text-accent-text"
                 >
                   <BadgeCheck size={18} />
                 </span>
                 <div>
-                  <h3 className="text-sm font-semibold leading-5 text-navy">{cert.title}</h3>
+                  <h3 className="text-sm font-semibold leading-5 text-heading">{cert.title}</h3>
                   <p className="mt-1.5 text-xs leading-5 text-muted">{cert.organization}</p>
                 </div>
               </li>

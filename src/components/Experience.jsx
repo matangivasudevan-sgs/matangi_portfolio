@@ -26,7 +26,7 @@ export default function Experience() {
                 {/* Timeline dot */}
                 <span
                   aria-hidden="true"
-                  className="absolute left-0 top-6 flex h-8 w-8 items-center justify-center rounded-full border-2 border-accent bg-white sm:h-10 sm:w-10"
+                  className="absolute left-0 top-6 flex h-8 w-8 items-center justify-center rounded-full border-2 border-accent bg-panel sm:h-10 sm:w-10"
                 >
                   <span className="h-2 w-2 rounded-full bg-accent" />
                 </span>
@@ -35,19 +35,19 @@ export default function Experience() {
                   <article className="card card-hover p-6">
                     <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-2">
                       <div>
-                        <h3 className="text-base font-semibold text-navy sm:text-lg">{exp.role}</h3>
+                        <h3 className="text-base font-semibold text-heading sm:text-lg">{exp.role}</h3>
                         <div className="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
                           <span className="inline-flex items-center gap-1.5">
-                            <Building2 size={14} aria-hidden="true" className="text-accent" />
+                            <Building2 size={14} aria-hidden="true" className="text-accent-text" />
                             {exp.organization}
                           </span>
                           <span className="inline-flex items-center gap-1.5">
-                            <MapPin size={14} aria-hidden="true" className="text-accent" />
+                            <MapPin size={14} aria-hidden="true" className="text-accent-text" />
                             {exp.location}
                           </span>
                         </div>
                       </div>
-                      <span className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1 text-xs font-semibold text-accent">
+                      <span className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1 text-xs font-semibold text-accent-text">
                         <CalendarDays size={12} aria-hidden="true" />
                         {exp.duration}
                       </span>

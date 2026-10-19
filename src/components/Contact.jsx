@@ -20,7 +20,7 @@ export default function Contact() {
                 >
                   <span
                     aria-hidden="true"
-                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-accent-soft text-accent"
+                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-accent-soft text-accent-text"
                   >
                     <Mail size={18} />
                   </span>
@@ -28,7 +28,7 @@ export default function Contact() {
                     <span className="block text-xs font-semibold uppercase tracking-wide text-muted">
                       Email
                     </span>
-                    <span className="mt-0.5 block truncate text-sm font-medium text-navy group-hover:text-accent">
+                    <span className="mt-0.5 block truncate text-sm font-medium text-heading group-hover:text-accent-text">
                       {profile.email}
                     </span>
                   </span>
@@ -45,7 +45,7 @@ export default function Contact() {
                 >
                   <span
                     aria-hidden="true"
-                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-accent-soft text-accent"
+                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-accent-soft text-accent-text"
                   >
                     <Linkedin size={18} />
                   </span>
@@ -53,7 +53,7 @@ export default function Contact() {
                     <span className="block text-xs font-semibold uppercase tracking-wide text-muted">
                       LinkedIn
                     </span>
-                    <span className="mt-0.5 block truncate text-sm font-medium text-navy group-hover:text-accent">
+                    <span className="mt-0.5 block truncate text-sm font-medium text-heading group-hover:text-accent-text">
                       linkedin.com/in/matangi-v-672a7b2a3
                     </span>
                   </span>
