@@ -19,6 +19,7 @@ export const navLinks = [
   { id: 'skills', label: 'Skills' },
   { id: 'experience', label: 'Experience' },
   { id: 'projects', label: 'Projects' },
+  { id: 'roles', label: 'Roles' },
   { id: 'education', label: 'Education' },
   { id: 'contact', label: 'Contact' },
 ]
@@ -197,6 +198,38 @@ export const projects = [
     keyAreas: [],
     publication: 'Book Pen Publishing',
     publicationDate: 'July 2026',
+  },
+]
+
+/**
+ * NOTE: The responsibilities below are drafted placeholders —
+ * edit them to match what you actually did in each role.
+ */
+export const roles = [
+  {
+    role: 'President',
+    organization: 'Rotaract Club of STC, Pollachi',
+    duration: '2025 – 2026',
+    type: 'Leadership',
+    responsibilities: [
+      'Led the club executive team and set the yearly plan covering service, fellowship, and member development activities.',
+      'Organised community service initiatives such as blood donation drives, health camps, and campus awareness campaigns.',
+      'Coordinated with the sponsor Rotary club and Rotaract district leadership for approvals, funding, and event participation.',
+      'Chaired weekly club meetings, tracked project progress, and maintained member engagement throughout the term.',
+      'Mentored new members through onboarding, role responsibilities, and hands-on event execution.',
+    ],
+  },
+  {
+    role: 'Green Ambassador',
+    organization: 'Sree Saraswathi Thyagaraja College, Pollachi',
+    duration: '2025 – 2027',
+    type: 'Sustainability',
+    responsibilities: [
+      'Promoted sustainability awareness across campus through campaigns, classroom talks, and environmental observance days.',
+      'Coordinated tree planting, plastic-free drives, and waste segregation initiatives with student volunteers.',
+      'Worked with college departments to reduce single-use plastic and improve everyday green practices on campus.',
+      'Tracked participation and prepared simple activity reports to measure the impact of campus sustainability efforts.',
+    ],
   },
 ]
 

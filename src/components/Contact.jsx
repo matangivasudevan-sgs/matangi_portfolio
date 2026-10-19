@@ -5,7 +5,7 @@ import SectionHeading from './SectionHeading'
 
 export default function Contact() {
   return (
-    <section id="contact" aria-labelledby="contact-heading" className="bg-surface py-16 sm:py-20">
+    <section id="contact" aria-labelledby="contact-heading" className="py-16 sm:py-20">
       <div className="mx-auto w-full max-w-4xl px-4 sm:px-6">
         <SectionHeading eyebrow="Contact" title={contact.heading} subtitle={contact.text} />
 

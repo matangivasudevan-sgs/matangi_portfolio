@@ -7,7 +7,7 @@ export default function Education() {
   const [mba, bcom] = education
 
   return (
-    <section id="education" aria-labelledby="education-heading" className="bg-surface py-16 sm:py-20">
+    <section id="education" aria-labelledby="education-heading" className="py-16 sm:py-20">
       <div className="mx-auto w-full max-w-5xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Academics"

@@ -8,7 +8,7 @@ export default function Certifications() {
     <section
       id="certifications"
       aria-labelledby="certifications-heading"
-      className="py-16 sm:py-20"
+      className="bg-surface py-16 sm:py-20"
     >
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
         <SectionHeading
